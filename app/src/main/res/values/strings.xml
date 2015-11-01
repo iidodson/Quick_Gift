@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">quickgift</string>
+
+    <string name="Description">Find the perfect gift for anyone and any occasion.</string>
+    <string name="Button1">Get started</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+
+    <string name="addperson">Add a profile +</string>
+
+    <string name="login">LOGIN</string>
+    <string name="back">Back</string>
+
+    <string name="profile">PROFILE</string>
+    <string name="male">Male</string>
+
+    <string name="female">Female</string>
+    <string name="tech">Technology</string>
+    <string name="outdoors">Outdoors</string>
+    <string name="sports">Sports</string>
+    <string name="music">Music</string>
+    <string name="cooking">Cooking</string>
+    <string name="christmas">Christmas</string>
+    <string name="valentines">Valentines Day</string>
+    <string name="parentsday">Mothers Day</string>
+    <string name="birthday">Birthday</string>
+    <string name="anniversary">Anniversary</string>
+
+
+
+
+
+
+
+    <string name="question1">Who is this gift for?</string>
+
+    <string name="title_activity_gender">genderActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_relationahip">RelationahipActivity</string>
+    <string name="title_activity_events">EventsActivity</string>
+    <string name="title_activity_interest">InterestActivity</string>
+
+    <string name="parent">Parent</string>
+    <string name="signifother">Significant Other</string>
+    <string name="sibling">Sibling</string>
+    <string name="friend">Friend</string>
+    <string name="other">Other</string>
+    <string name="title_activity_quick_gift">QuickGift</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_gift_details">GiftDetails</string>
+</resources>

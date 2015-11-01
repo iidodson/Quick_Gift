@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal"
+    android:orientation="vertical" android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:background="#fff"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.i.quick_gift.LoginActivity">
+
+    <ScrollView android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/login"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Login"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textColor="#000"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_below="@id/login" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#333"
+                android:layout_below="@id/email"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/email_sign_in_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="LOGIN"
+                android:onClick="goToProfile"
+                android:layout_below="@id/password"
+                android:background="#a8f350"
+                android:textColor="#333"
+                />
+            <Button
+                android:id="@+id/Buttonsignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="SIGN UP"
+                android:onClick="goToSignup"
+                android:layout_below="@id/email_sign_in_button"
+                android:background="#a8f350"
+                android:textColor="#333"
+                />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
+

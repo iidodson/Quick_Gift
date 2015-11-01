@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#a8f350"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.i.quick_gift.RelationahipActivity">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/back"
+        android:textColor="#333"
+        android:onClick="goBack"
+        android:background="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/whatrelationship"
+        android:text="What relationship?"
+        android:layout_width="wrap_content"
+        android:textColor="#333"
+        android:layout_below="@id/back"
+        android:textSize="30sp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/parent"
+        android:onClick="getRelationship"
+        android:layout_below="@id/whatrelationship"
+        android:background="#fff"
+        android:textColor="#333"
+        />
+
+    <Button
+        android:id="@+id/signifother"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/signifother"
+        android:onClick="getRelationship"
+        android:layout_below="@id/parent"
+        android:background="#fff"
+        android:textColor="#333"
+        />
+
+    <Button
+        android:id="@+id/sibling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/sibling"
+        android:onClick="getRelationship"
+        android:layout_below="@id/signifother"
+        android:background="#fff"
+        android:textColor="#333"
+        />
+
+    <Button
+        android:id="@+id/friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/friend"
+        android:onClick="getRelationship"
+        android:layout_below="@id/sibling"
+        android:background="#fff"
+        android:textColor="#333"
+        />
+    <Button
+        android:id="@+id/other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/other"
+        android:onClick="getRelationship"
+        android:layout_below="@id/friend"
+        android:background="#fff"
+        android:textColor="#333"
+        />
+
+</RelativeLayout>
